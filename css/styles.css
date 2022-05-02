@@ -2,12 +2,25 @@ body {
     background-color: azure;
 }
 /* Style the header with a grey background and some padding */
-.header {
-    overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
+  .inline-block {
+    display: inline-block;
+    vertical-align: top;
   }
   
+  .logo {
+    width: 23%;
+    padding: 1%;
+  }
+  .top-menu {
+    width: 73%;
+    padding: 1%;
+  }
+
+  .top-menu .ul {
+    width: 50%;
+    margin-left: auto;
+  }
+
   /* Style the header links */
   .header a {
     float: left;
@@ -40,7 +53,9 @@ body {
   
   /* Float the link section to the right */
   .header-right {
-    float: right;
+  
+    display: inline-block;
+    vertical-align: bottom;
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
