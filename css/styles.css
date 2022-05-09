@@ -92,12 +92,14 @@ body {
     display: inline-block;
   }
 
-  .content-left .about-me {
-    font: 16px inter, sans-serif;
-  }
-
   .content-left .heading {
     font: 60px inter, sans-serif;
+  }
+
+ .content-left .about-me {
+    font: 16px inter, sans-serif;
+    width: 70%;
+    line-height: 1.6;
   }
 
   .content-right {
@@ -126,9 +128,10 @@ body {
     text-align: center;
   }
 
-  .flex-container h3 {
+  .flex-container h4 {
     font: 24px inter, sans-serif;
     font-weight: 600;
+    color: #3A5A40;
   }
 
   .flex-container p {
@@ -209,25 +212,46 @@ body {
   }
 
   .cs1-img { grid-area: cs1-img; 
-    padding-top: 0px;
-    padding-right: 16px;
-    padding-bottom: 0px;
-    padding-left: 0px; 
   }
 
-  .cs1-info { grid-area: cs1-info; }
+  .cs1-info { grid-area: cs1-info; 
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    line-height: 1.6;
+  }
 
-  .cs2-img { grid-area: cs2-img; }
+  .cs2-img { grid-area: cs2-img; 
+  }
 
-  .cs2-info { grid-area: cs2-info; }
+  .cs2-info { grid-area: cs2-info; 
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    line-height: 1.6;
+  }
 
-  .cs3-info { grid-area: cs3-info; }
+  .cs3-img { grid-area: cs3-img; 
+  }
 
-  .cs3-img { grid-area: cs3-img; }
+  .cs3-info { grid-area: cs3-info; 
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    line-height: 1.6;
+  }
 
   .cs-container h3 {
-    font: 24px inter, sans-serif;
+    font: 32px inter, sans-serif;
     font-weight: 600;
+    color: #3A5A40;
+  }
+
+  .cs-container h4 {
+    font: 24px inter, sans-serif;
   }
 
   .cs-container p {
@@ -246,8 +270,6 @@ body {
     padding-right: 0px;
     padding-bottom: 16px;
     padding-left: 0px;
-    font: 12px inter, sans-serif;
-    color: #F9FBF9;
   }
 
   footer ul {
@@ -262,5 +284,10 @@ body {
     padding-bottom: 0px;
     padding-left: 0px;
   }
+  footer li a {
+    font: 12px inter, sans-serif;
+    color: #F9FBF9;
+  }
+  
 
 
