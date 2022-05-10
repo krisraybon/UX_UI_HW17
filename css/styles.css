@@ -97,6 +97,9 @@ body {
     display: inline-block;
   }
 
+  .content-right
+    width: 70%;
+  }
 
 
 /*Skills*/
@@ -299,9 +302,7 @@ body {
     display: block;
     justify-content: space-between;
   }
-  .content-right {
-    
-  }
+
 
   .flex-container {
     display: flex;
