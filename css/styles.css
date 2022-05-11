@@ -13,7 +13,7 @@ body {
 .topnav a {
   float: right;
   display: block;
-  color: #000000;
+  color: #141F16;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -21,7 +21,7 @@ body {
 }
 
 .topnav a:hover {
-  color: black;
+  color: #3A5A40;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -326,8 +326,8 @@ Style the header with a grey background and some padding
     background-color: #141F16;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
 
     padding-top: 16px;
     padding-right: 0px;
@@ -337,7 +337,8 @@ Style the header with a grey background and some padding
 
   footer ul {
     list-style: none;
-    padding-left: 4px;
+    padding-left: 100px;
+
   }
 
   footer li {
@@ -365,6 +366,7 @@ Style the header with a grey background and some padding
     float: none;
   }
   */
+
   /*Hero*/ 
   .heroImg {
     height: auto;
