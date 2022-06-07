@@ -8,6 +8,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
+  padding: 0px 200px;
 }
 
 .topnav a {
@@ -15,7 +16,10 @@ body {
   display: block;
   color: #141F16;
   text-align: center;
-  padding: 14px 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 0px;
+  padding-right: 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -125,7 +129,7 @@ Style the header with a grey background and some padding
   .heroImg {
     height: 600px;
     padding: 0px;
-    margin: 0px 100px;
+    padding: 0px 200px;
   }
 
   /*Content*/
