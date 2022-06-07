@@ -148,7 +148,7 @@ Style the header with a grey background and some padding
     font: 60px inter, sans-serif;
   }
 
- .content-left .about-me {
+ .content-left p {
     font: 16px inter, sans-serif;
     width: 70%;
     line-height: 1.6;
@@ -159,9 +159,10 @@ Style the header with a grey background and some padding
     display: inline-block;
   }
 
-  .content-right img {
+  /* .content-right img {
     width: 100%;
-  }
+  } */
+
   .dropdown_arrow {
     margin: auto;
     width: fit-content;
